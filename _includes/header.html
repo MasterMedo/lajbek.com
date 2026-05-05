@@ -1,0 +1,11 @@
+<header class="site-header">
+  <div class="container">
+    <a href="{{ '/' | relative_url }}" class="site-logo">Lajbek</a>
+    <nav class="site-nav">
+      <a href="{{ '/' | relative_url }}" {% if page.url == '/' %}class="active"{% endif %}>Home</a>
+      <a href="{{ '/use-cases/' | relative_url }}" {% if page.url == '/use-cases/' %}class="active"{% endif %}>Use Cases</a>
+      <a href="{{ '/materials/' | relative_url }}" {% if page.url == '/materials/' %}class="active"{% endif %}>Materials</a>
+      <a href="{{ '/history/' | relative_url }}" {% if page.url == '/history/' %}class="active"{% endif %}>History</a>
+    </nav>
+  </div>
+</header>

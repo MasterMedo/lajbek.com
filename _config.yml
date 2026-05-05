@@ -1,0 +1,12 @@
+title: "Lajbek — The Sleeveless Jacket"
+description: "Exploring the practical and functional use cases of sleeveless jackets"
+url: "https://lajbek.com"
+baseurl: ""
+
+permalink: pretty
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - vendor/
+  - README.md
